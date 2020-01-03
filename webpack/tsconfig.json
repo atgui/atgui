@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "esnext",
+      "lib": ["es6","dom", "es2015.generator", "es2015.promise"],
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "noEmitHelpers": false,
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true
+    }
+  }
+  
