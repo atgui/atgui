@@ -9,7 +9,7 @@ module.exports = {
   entry: "./src/Main.ts",  // 入口文件
   output: {
     path: path.resolve(__dirname, '..', 'bin', 'js'), // __dirname 是指webpack.config.js的绝对路径  dist 是指出口的目录
-    filename: '[name]_'+getVersion()+'.js', // 打包输出的文件夹的文件名
+    filename: '[name].js', // 打包输出的文件夹的文件名
     publicPath: './js/',// 打包后的文件夹 __dirname + '/dist/'
     chunkFilename: '[name]_'+getVersion()+'.js' // 代码拆分后的文件名
   },
@@ -39,9 +39,10 @@ module.exports = {
   },
   optimization: {
     splitChunks: {//提取公共部分代码
+      automaticNameDelimiter:"-",//合并的用这个分隔
       cacheGroups: {
         common: {
-          name: 'Acommon', //分离出的公共模块的名字，如果没写就默认是上一层的名字
+          // name: 'Acommon', //分离出的公共模块的名字，如果没写就默认是上一层的名字
           chunks: 'all', //在哪些js范围内寻找公共模块，可以是src下的文件里，也可以是node_modules中的js文件
           minSize: 30, //抽离出的包的最小体积，默认30kb
           minChunks: 2,//当前公共模块出现的最少次数，
