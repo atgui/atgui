@@ -1,6 +1,6 @@
 # 2020-02-14
 
-cocos creator 原生UI热更新demo
+cocos creator + FairyGUI 热更新demo
 
 1. 使用 android studio 打开 build 目录下的 android 项目,并安装到手机或模拟器上
 2. 使用cocoscreator 打开项目

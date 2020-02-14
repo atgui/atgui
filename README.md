@@ -4,3 +4,4 @@
 
 # 2020-02-14
 1.添加 cocos creator 热更新demo
+2.添加 cocos creator + fairygui 热更新demo
