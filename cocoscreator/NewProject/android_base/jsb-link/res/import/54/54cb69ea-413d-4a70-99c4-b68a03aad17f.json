@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_gengduo1",
+    "texture": "7c2t5Qzz5MaJvvB5KeWtTR",
+    "rect": [
+      5,
+      15,
+      76,
+      45
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      86,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

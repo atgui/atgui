@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_gonggao1",
+    "texture": "3aGdDWQxNLVprEF47ZUWJc",
+    "rect": [
+      0,
+      16,
+      83,
+      44
+    ],
+    "offset": [
+      -1.5,
+      -2
+    ],
+    "originalSize": [
+      86,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

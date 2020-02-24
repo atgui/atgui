@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_youxiang",
+    "texture": "dcNQpieW5KdpxyKbaCv2fS",
+    "rect": [
+      5,
+      9,
+      90,
+      64
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      99,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

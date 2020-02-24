@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_bangzhu",
+    "texture": "0aCM6GwhpP/YegmtVNHHSd",
+    "rect": [
+      4,
+      3,
+      90,
+      72
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      99,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

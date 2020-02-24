@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_fenxiang",
+    "texture": "b35ikAZ+VFHJkrdYsae2Uy",
+    "rect": [
+      1,
+      0,
+      98,
+      73
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      99,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

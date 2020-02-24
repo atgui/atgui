@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_qiandao1",
+    "texture": "ddnbuMMRNAj5goPP5CrTAJ",
+    "rect": [
+      0,
+      10,
+      85,
+      50
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      86,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">NewProject</string>
+    <string name="umeng_socialize_female" translatable="false">女</string>
+    <string name="umeng_socialize_male"  translatable="false">男</string>
+</resources>

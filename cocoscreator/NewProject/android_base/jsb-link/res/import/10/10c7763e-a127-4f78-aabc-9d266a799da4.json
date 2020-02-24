@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_duihuan",
+    "texture": "cbLi00yWBCxZtcyZR8gpZY",
+    "rect": [
+      4,
+      6,
+      64,
+      65
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      72,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_bg_1_1",
+    "texture": "1cqCuAIC9OVIRTukFBf8Og",
+    "rect": [
+      0,
+      0,
+      372,
+      166
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      372,
+      166
+    ],
+    "capInsets": [
+      271,
+      37,
+      46,
+      83
+    ]
+  }
+}

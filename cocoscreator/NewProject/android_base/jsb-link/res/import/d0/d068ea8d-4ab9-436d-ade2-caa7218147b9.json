@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_saishi1",
+    "texture": "ffHa6jBYZLR48pJeBPn3+f",
+    "rect": [
+      0,
+      10,
+      84,
+      50
+    ],
+    "offset": [
+      -1,
+      1
+    ],
+    "originalSize": [
+      86,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

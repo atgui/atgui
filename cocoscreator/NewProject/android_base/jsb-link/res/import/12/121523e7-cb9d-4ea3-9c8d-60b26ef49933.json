@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DT_3Dbuyu",
+    "texture": "8f3uMAvLdGVLeHkbULLyJV",
+    "rect": [
+      3,
+      3,
+      1002,
+      500
+    ],
+    "offset": [
+      -8,
+      3
+    ],
+    "originalSize": [
+      1024,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

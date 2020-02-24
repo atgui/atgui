@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_tequan1",
+    "texture": "86kPCm+zxMHLYUuwbMyDIb",
+    "rect": [
+      4,
+      15,
+      78,
+      45
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      86,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

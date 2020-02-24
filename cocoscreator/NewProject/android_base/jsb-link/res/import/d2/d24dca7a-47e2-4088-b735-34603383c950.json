@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_kefu",
+    "texture": "99HrOby4JMNoexOBQRs0b6",
+    "rect": [
+      0,
+      4,
+      99,
+      71
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      99,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

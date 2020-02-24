@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_jinbi_icon",
+    "texture": "43Y0VlaxVKpICmBDM145KF",
+    "rect": [
+      1,
+      1,
+      72,
+      73
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      74,
+      74
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

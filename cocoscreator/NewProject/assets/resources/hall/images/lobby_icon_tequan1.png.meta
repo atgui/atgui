@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "8690f0a6-fb3c-4c1c-b614-bb06ccc8321b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "lobby_icon_tequan1": {
+      "ver": "1.0.4",
+      "uuid": "c3b04a90-5f5f-4a9b-b7b8-c545240b63d7",
+      "rawTextureUuid": "8690f0a6-fb3c-4c1c-b614-bb06ccc8321b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1.5,
+      "trimX": 4,
+      "trimY": 15,
+      "width": 78,
+      "height": 45,
+      "rawWidth": 86,
+      "rawHeight": 72,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

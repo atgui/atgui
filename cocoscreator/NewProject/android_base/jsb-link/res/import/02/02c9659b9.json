@@ -1,0 +1,109 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "lobby_gameicon_shuiguoji",
+      "texture": "75k76Mg4NIpbNkr0dCGyzK",
+      "rect": [
+        9,
+        23,
+        361,
+        327
+      ],
+      "offset": [
+        -0.5,
+        -11.5
+      ],
+      "originalSize": [
+        380,
+        350
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "gameListItem",
+      "data": {
+        "__id__": 1
+      },
+      "optimizationPolicy": 2
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "gameListItem",
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "3az3QF7V1J55rVCRdqaU2Q"
+          }
+        },
+        {
+          "__type__": "02b73cvn9xKC7EDKHQuruXV",
+          "node": {
+            "__id__": 1
+          },
+          "icon": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 1
+          },
+          "_normalMaterial": {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          },
+          "_N$interactable": false
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "b6EVE4x4dP34zGFTOoIwWt"
+        },
+        "fileId": "06aFcjIJZCf6/qQZuL33Lh"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 361,
+        "height": 327
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ]
+]

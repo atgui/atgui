@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_huodong",
+    "texture": "7dIfDZ4idPoYnMQHoPSJP5",
+    "rect": [
+      4,
+      5,
+      62,
+      66
+    ],
+    "offset": [
+      -1,
+      -2
+    ],
+    "originalSize": [
+      72,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

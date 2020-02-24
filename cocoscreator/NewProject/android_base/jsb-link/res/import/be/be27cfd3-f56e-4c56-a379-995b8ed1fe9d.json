@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobby_icon_tuiguang1",
+    "texture": "1dkmNCE31LgqNMNqpUQz/K",
+    "rect": [
+      2,
+      15,
+      80,
+      45
+    ],
+    "offset": [
+      -1,
+      -1.5
+    ],
+    "originalSize": [
+      86,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
