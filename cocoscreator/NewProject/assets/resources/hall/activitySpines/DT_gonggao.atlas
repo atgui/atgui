@@ -1,0 +1,20 @@
+
+DT_gonggao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+laba
+  rotate: false
+  xy: 2, 44
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 2, 2
+  size: 76, 40
+  orig: 76, 40
+  offset: 0, 0
+  index: -1

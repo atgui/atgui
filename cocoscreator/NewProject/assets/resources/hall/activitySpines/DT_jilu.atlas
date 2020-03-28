@@ -1,0 +1,27 @@
+
+DT_jilu.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heiban
+  rotate: false
+  xy: 2, 28
+  size: 128, 97
+  orig: 128, 97
+  offset: 0, 0
+  index: -1
+hengxian
+  rotate: false
+  xy: 2, 2
+  size: 89, 24
+  orig: 89, 24
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 132, 75
+  size: 87, 50
+  orig: 87, 50
+  offset: 0, 0
+  index: -1

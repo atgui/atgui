@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    backface-visibility: hidden;
+}

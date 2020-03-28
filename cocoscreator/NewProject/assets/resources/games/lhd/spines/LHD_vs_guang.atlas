@@ -1,0 +1,48 @@
+
+LHD_vs_guang.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx/tx (1)
+  rotate: false
+  xy: 89, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+tx/tx (2)
+  rotate: false
+  xy: 176, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+tx/tx (3)
+  rotate: false
+  xy: 263, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+tx/tx (4)
+  rotate: false
+  xy: 350, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+tx/tx (5)
+  rotate: false
+  xy: 437, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+tx/tx (6)
+  rotate: false
+  xy: 2, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+DT_LHD.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hugebo1
+  rotate: false
+  xy: 312, 495
+  size: 117, 107
+  orig: 117, 107
+  offset: 0, 0
+  index: -1
+hugebo2
+  rotate: false
+  xy: 431, 501
+  size: 91, 101
+  orig: 91, 101
+  offset: 0, 0
+  index: -1
+hutou
+  rotate: false
+  xy: 182, 285
+  size: 144, 124
+  orig: 144, 124
+  offset: 0, 0
+  index: -1
+huwei
+  rotate: false
+  xy: 706, 742
+  size: 272, 271
+  orig: 272, 271
+  offset: 0, 0
+  index: -1
+huzhua
+  rotate: false
+  xy: 312, 448
+  size: 70, 45
+  orig: 70, 45
+  offset: 0, 0
+  index: -1
+lobby_gameicon_longhudou
+  rotate: false
+  xy: 343, 704
+  size: 361, 309
+  orig: 361, 309
+  offset: 0, 0
+  index: -1
+lobby_gameicon_longhudou1
+  rotate: false
+  xy: 343, 604
+  size: 361, 98
+  orig: 361, 98
+  offset: 0, 0
+  index: -1
+longtou
+  rotate: false
+  xy: 2, 176
+  size: 178, 233
+  orig: 178, 233
+  offset: 0, 0
+  index: -1
+longwei
+  rotate: false
+  xy: 2, 2
+  size: 146, 172
+  orig: 146, 172
+  offset: 0, 0
+  index: -1
+longxu1
+  rotate: false
+  xy: 706, 624
+  size: 227, 116
+  orig: 227, 116
+  offset: 0, 0
+  index: -1
+longxu2
+  rotate: false
+  xy: 524, 461
+  size: 83, 141
+  orig: 83, 141
+  offset: 0, 0
+  index: -1
+longzhua1
+  rotate: false
+  xy: 609, 508
+  size: 78, 94
+  orig: 78, 94
+  offset: 0, 0
+  index: -1
+longzhua2
+  rotate: false
+  xy: 182, 184
+  size: 135, 99
+  orig: 135, 99
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 411
+  size: 308, 265
+  orig: 308, 265
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 2, 678
+  size: 339, 335
+  orig: 339, 335
+  offset: 0, 0
+  index: -1

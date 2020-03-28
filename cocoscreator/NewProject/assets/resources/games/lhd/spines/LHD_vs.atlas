@@ -1,0 +1,69 @@
+
+LHD_vs.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VS
+  rotate: false
+  xy: 541, 267
+  size: 273, 218
+  orig: 273, 218
+  offset: 0, 0
+  index: -1
+hu
+  rotate: false
+  xy: 541, 487
+  size: 402, 253
+  orig: 402, 253
+  offset: 0, 0
+  index: -1
+hudi
+  rotate: false
+  xy: 2, 874
+  size: 820, 130
+  orig: 820, 130
+  offset: 0, 0
+  index: -1
+huguang
+  rotate: false
+  xy: 2, 2
+  size: 216, 131
+  orig: 216, 131
+  offset: 0, 0
+  index: -1
+huyanguang
+  rotate: false
+  xy: 220, 38
+  size: 136, 95
+  orig: 136, 95
+  offset: 0, 0
+  index: -1
+huyun
+  rotate: false
+  xy: 2, 135
+  size: 530, 243
+  orig: 530, 243
+  offset: 0, 0
+  index: -1
+long
+  rotate: false
+  xy: 2, 380
+  size: 537, 360
+  orig: 537, 360
+  offset: 0, 0
+  index: -1
+longdi
+  rotate: false
+  xy: 2, 742
+  size: 781, 130
+  orig: 781, 130
+  offset: 0, 0
+  index: -1
+longyanguang
+  rotate: false
+  xy: 824, 884
+  size: 116, 120
+  orig: 116, 120
+  offset: 0, 0
+  index: -1

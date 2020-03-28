@@ -1,11 +1,18 @@
-import SceneManager from "../code/manager/SceneManager";
 import NativeHelper from "../code/native/NativeHelper";
-import SocketManager from "../code/socket/SocketManager";
-import HttpHelper from "../code/net/HttpHelper";
+import UIManager from "../code/base/UIManager";
+import SocketManager from "../code/network/SocketManager";
+import { SocketNode } from "../code/network/SocketNode";
+import { DefStringProtocol, NetData } from "../code/network/INetInterface";
+import Socket from "../code/network/Socket";
+import UserManager from "../managers/UserManager";
+import LoadingProgress from "../code/common/LoadingProgress";
+import ActionIds from "../code/common/ActionIds";
+import NetTips from "../code/network/NetTips";
 var HotUpdate = require("HotUpdate");
-var NativeJs=require("NativeJs");
+var NativeJs = require("NativeJs");
 
 const { ccclass, property } = cc._decorator;
+
 
 @ccclass
 export default class LoginTs extends cc.Component {
@@ -19,8 +26,11 @@ export default class LoginTs extends cc.Component {
     @property(cc.Node)
     hotButton: cc.Node = null;
 
-    onLoad() {       
+    @property(cc.Node)
+    guestButton: cc.Node = null;
 
+    onLoad() {
+        console.log("TAG login...");
         this.wxLoginButton.on(cc.Node.EventType.TOUCH_END,
             function (t) {
                 console.log("登录信息:");
@@ -28,39 +38,53 @@ export default class LoginTs extends cc.Component {
                     console.log("登录信息:", JSON.stringify(loginData));
                 }.bind(this));
             });
-        this.accountBtn.on(cc.Node.EventType.TOUCH_END, function () {
-            SocketManager.instance.client.onReady(function (client1) {
-                console.log("准备好了...");
-                client1.proxy.hello("fasfasfklfaslfjaslfkjsalfkjal", 123, function (data) {
-                    console.log(data.msg);
-                    if (data.msg == "success") {
-                        SceneManager.instance.toScene("game_hall", true, function (count, totalCount, item) {
-                            console.log(count, totalCount, item);
-                        }.bind(this), function (data) {
-                            console.log(data);
-                        }.bind(this));
-                    }
-                }.bind(this));
-            }.bind(this), this);
-        }.bind(this), this);
-
 
         this.hotButton.on(cc.Node.EventType.TOUCH_END, function () {
-            console.log("TAG 热更新...");
             let hot = this.node.getComponent(HotUpdate);
             hot["hotUpdate"]();
         }.bind(this), this);
 
-        SocketManager.instance.connect("ws://192.168.3.108:36502");
+        this.wxLoginButton.active = this.hotButton.active = cc.sys.isNative;
 
-        HttpHelper.instance.get("http://192.168.3.108/remote-assets/HotUpdateDemo/version.manifest", function (data) {
-            console.log("TAG:获取资源:", JSON.stringify(data));
-        }.bind(this));
+        let __self = this;
+        this.accountBtn.on(cc.Node.EventType.TOUCH_END, async function () {
+            UIManager.loadPrefab("./prefab/login/accountbg", function (res) {
+                let accountNode = cc.instantiate(res);
+                __self.node.addChild(accountNode);
+            }, this);
+        }.bind(this), this);
 
+        this.guestButton.on(cc.Node.EventType.TOUCH_END, function () {
+            SocketManager.instance.send(JSON.stringify({ cmd: ActionIds.Login, type: 1, username: "atgui2", password: "123456" }));
+        }.bind(this), this);
+
+
+        let netNode: SocketNode = SocketManager.instance.getNetNode();
+        netNode.addResponeHandler(ActionIds.Login, this._loginSuccess.bind(this), this);
+    }
+
+    private _loginSuccess(cmd, e) {
+        let loginData = JSON.parse(e);
+        UserManager.instance.self.createUser(loginData);
+
+        let __self = this;
+        UIManager.loadPrefab("./prefab/Loading", (resource) => {
+            let accountNode = cc.instantiate(resource);
+            __self.node.addChild(accountNode);
+
+            let progress = accountNode.getComponent(LoadingProgress);
+            UIManager.loadScene("hall_scene", true, (count, totalCount, item) => {
+                progress.setProgress(count / totalCount);
+            }, () => {
+                progress.onDestroy();
+                console.log("加载完成了...");
+            });
+        }, this);
     }
 
     onDestroy() {
-
+        let netNode: SocketNode = SocketManager.instance.getNetNode();
+        netNode.cleanListeners(ActionIds.Login);
     }
     // update (dt) {}
 }

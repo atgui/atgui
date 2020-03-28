@@ -32,6 +32,11 @@ export default class EventEmitter {
      * @param type 事件名称
      */
     public offAll(type: string) {
+        if (this.events[type]) {
+            let evt: Event = this.events[type];
+            delete evt.taget;
+            delete evt.callback;
+        }
         delete this.events[type];
     }
 

@@ -1,0 +1,13 @@
+
+LHD_xiazhu_guang.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongguang
+  rotate: false
+  xy: 2, 2
+  size: 172, 434
+  orig: 172, 434
+  offset: 0, 0
+  index: -1

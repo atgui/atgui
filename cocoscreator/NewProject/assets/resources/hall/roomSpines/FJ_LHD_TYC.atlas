@@ -1,0 +1,27 @@
+
+FJ_LHD_TYC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+laohu
+  rotate: false
+  xy: 2, 61
+  size: 329, 377
+  orig: 329, 377
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 333, 352
+  size: 79, 86
+  orig: 79, 86
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 2, 2
+  size: 116, 57
+  orig: 116, 57
+  offset: 0, 0
+  index: -1

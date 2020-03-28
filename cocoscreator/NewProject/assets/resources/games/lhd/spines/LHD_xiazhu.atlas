@@ -1,0 +1,27 @@
+
+LHD_xiazhu.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lhd_kaishi
+  rotate: false
+  xy: 2, 2
+  size: 492, 121
+  orig: 492, 121
+  offset: 0, 0
+  index: -1
+lhd_room
+  rotate: false
+  xy: 2, 260
+  size: 879, 243
+  orig: 879, 243
+  offset: 0, 0
+  index: -1
+lhd_tingzhi
+  rotate: false
+  xy: 2, 125
+  size: 500, 133
+  orig: 500, 133
+  offset: 0, 0
+  index: -1

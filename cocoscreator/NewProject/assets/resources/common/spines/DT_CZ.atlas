@@ -1,0 +1,48 @@
+
+DT_CZ.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 345, 80
+  size: 186, 158
+  orig: 186, 158
+  offset: 0, 0
+  index: -1
+jiantou_hou
+  rotate: false
+  xy: 155, 28
+  size: 134, 105
+  orig: 134, 105
+  offset: 0, 0
+  index: -1
+jiantou_qian
+  rotate: false
+  xy: 686, 139
+  size: 121, 99
+  orig: 121, 99
+  offset: 0, 0
+  index: -1
+lobby_bg_4
+  rotate: false
+  xy: 2, 135
+  size: 341, 103
+  orig: 341, 103
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 533, 110
+  size: 151, 128
+  orig: 151, 128
+  offset: 0, 0
+  index: -1
+zi_guang
+  rotate: false
+  xy: 2, 2
+  size: 151, 131
+  orig: 151, 131
+  offset: 0, 0
+  index: -1

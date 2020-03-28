@@ -10,7 +10,7 @@ export default class HttpHelper {
         }
         return HttpHelper._instance;
     }
-
+    private BASE_URL = "http://192.168.3.108:36502/";
     public post(url, params, callback) {
         var xhr = cc.loader.getXMLHttpRequest();
         xhr.onreadystatechange = function () {
@@ -21,9 +21,14 @@ export default class HttpHelper {
             }
         }
         // var url_temp = url;//"http://192.168.3.108:8080/login?data=1";
-        xhr.open("POST", url, true);
+        xhr.open("POST", this.BASE_URL + url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
-        xhr.send(JSON.stringify(params));
+
+        if (params) {
+            xhr.send(JSON.stringify(params));
+        } else {
+            xhr.send();
+        }
     }
 
     //GET
@@ -36,7 +41,7 @@ export default class HttpHelper {
                 callback(JSON.parse(respone));
             }
         };
-        xhr.open("GET", url, true);
+        xhr.open("GET", this.BASE_URL + url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send();
     }

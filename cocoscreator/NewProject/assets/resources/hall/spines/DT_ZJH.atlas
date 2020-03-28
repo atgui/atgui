@@ -1,0 +1,146 @@
+
+DT_ZJH.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chouma
+  rotate: false
+  xy: 783, 391
+  size: 223, 113
+  orig: 223, 113
+  offset: 0, 0
+  index: -1
+lobby_gameicon_zhajinhua
+  rotate: false
+  xy: 2, 195
+  size: 361, 309
+  orig: 361, 309
+  offset: 0, 0
+  index: -1
+lobby_gameicon_zhajinhua1
+  rotate: false
+  xy: 2, 95
+  size: 361, 98
+  orig: 361, 98
+  offset: 0, 0
+  index: -1
+puke1
+  rotate: false
+  xy: 365, 270
+  size: 220, 234
+  orig: 220, 234
+  offset: 0, 0
+  index: -1
+puke2
+  rotate: false
+  xy: 587, 279
+  size: 194, 225
+  orig: 194, 225
+  offset: 0, 0
+  index: -1
+puke3
+  rotate: false
+  xy: 783, 204
+  size: 146, 185
+  orig: 146, 185
+  offset: 0, 0
+  index: -1
+tx/huo (1)
+  rotate: false
+  xy: 931, 319
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (2)
+  rotate: false
+  xy: 931, 319
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (3)
+  rotate: false
+  xy: 931, 247
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (4)
+  rotate: false
+  xy: 931, 247
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (5)
+  rotate: false
+  xy: 217, 23
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (6)
+  rotate: false
+  xy: 217, 23
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (7)
+  rotate: false
+  xy: 289, 23
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (8)
+  rotate: false
+  xy: 289, 23
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tx/huo (9)
+  rotate: false
+  xy: 361, 20
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+xing1
+  rotate: false
+  xy: 113, 29
+  size: 102, 64
+  orig: 102, 64
+  offset: 0, 0
+  index: -1
+xing2
+  rotate: false
+  xy: 525, 185
+  size: 45, 83
+  orig: 45, 83
+  offset: 0, 0
+  index: -1
+xing3
+  rotate: false
+  xy: 433, 23
+  size: 44, 67
+  orig: 44, 67
+  offset: 0, 0
+  index: -1
+zhadan
+  rotate: false
+  xy: 2, 2
+  size: 109, 91
+  orig: 109, 91
+  offset: 0, 0
+  index: -1
+zhadan2
+  rotate: false
+  xy: 365, 92
+  size: 158, 176
+  orig: 158, 176
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+FJ_LHD_CJC.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenzi
+  rotate: false
+  xy: 2, 169
+  size: 284, 253
+  orig: 284, 253
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 288, 281
+  size: 118, 141
+  orig: 118, 141
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 2, 71
+  size: 243, 96
+  orig: 243, 96
+  offset: 0, 0
+  index: -1
+zhuazi_you
+  rotate: false
+  xy: 288, 207
+  size: 40, 72
+  orig: 40, 72
+  offset: 0, 0
+  index: -1
+zhuazi_zuo
+  rotate: false
+  xy: 2, 2
+  size: 90, 67
+  orig: 90, 67
+  offset: 0, 0
+  index: -1

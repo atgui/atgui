@@ -1,0 +1,20 @@
+
+LHD_di.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lhd_faguang
+  rotate: false
+  xy: 2, 2
+  size: 254, 143
+  orig: 254, 143
+  offset: 0, 0
+  index: -1
+lhd_heiguang
+  rotate: false
+  xy: 258, 2
+  size: 254, 143
+  orig: 254, 143
+  offset: 0, 0
+  index: -1

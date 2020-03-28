@@ -1,0 +1,188 @@
+
+LHD_huying_guang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hu/1
+  rotate: false
+  xy: 2, 812
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/10
+  rotate: false
+  xy: 407, 812
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/11
+  rotate: false
+  xy: 2, 272
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/12
+  rotate: false
+  xy: 137, 407
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/13
+  rotate: false
+  xy: 272, 542
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/14
+  rotate: false
+  xy: 407, 677
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/15
+  rotate: false
+  xy: 542, 812
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/16
+  rotate: false
+  xy: 2, 137
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/17
+  rotate: false
+  xy: 137, 272
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/18
+  rotate: false
+  xy: 272, 407
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/19
+  rotate: false
+  xy: 407, 542
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/2
+  rotate: false
+  xy: 2, 677
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/20
+  rotate: false
+  xy: 542, 677
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/21
+  rotate: false
+  xy: 677, 812
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/22
+  rotate: false
+  xy: 2, 2
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/23
+  rotate: false
+  xy: 137, 137
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/24
+  rotate: false
+  xy: 272, 272
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/25
+  rotate: false
+  xy: 407, 407
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/26
+  rotate: false
+  xy: 542, 542
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/3
+  rotate: false
+  xy: 137, 812
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/4
+  rotate: false
+  xy: 2, 542
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/5
+  rotate: false
+  xy: 137, 677
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/6
+  rotate: false
+  xy: 272, 812
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/7
+  rotate: false
+  xy: 2, 407
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/8
+  rotate: false
+  xy: 137, 542
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1
+hu/9
+  rotate: false
+  xy: 272, 677
+  size: 133, 133
+  orig: 133, 133
+  offset: 0, 0
+  index: -1

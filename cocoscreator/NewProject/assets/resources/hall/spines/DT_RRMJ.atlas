@@ -1,0 +1,76 @@
+
+DT_RRMJ.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bianzi
+  rotate: false
+  xy: 873, 484
+  size: 87, 23
+  orig: 87, 23
+  offset: 0, 0
+  index: -1
+gebo_you
+  rotate: false
+  xy: 590, 370
+  size: 187, 137
+  orig: 187, 137
+  offset: 0, 0
+  index: -1
+gebo_zuo
+  rotate: false
+  xy: 2, 2
+  size: 119, 94
+  orig: 119, 94
+  offset: 0, 0
+  index: -1
+lobby_gameicon_errenmajiang
+  rotate: false
+  xy: 2, 198
+  size: 361, 309
+  orig: 361, 309
+  offset: 0, 0
+  index: -1
+lobby_gameicon_errenmajiang1
+  rotate: false
+  xy: 2, 98
+  size: 361, 98
+  orig: 361, 98
+  offset: 0, 0
+  index: -1
+majiang2
+  rotate: false
+  xy: 590, 315
+  size: 65, 53
+  orig: 65, 53
+  offset: 0, 0
+  index: -1
+majing3
+  rotate: false
+  xy: 535, 235
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 365, 274
+  size: 223, 233
+  orig: 223, 233
+  offset: 0, 0
+  index: -1
+shou_zuo
+  rotate: false
+  xy: 779, 373
+  size: 92, 134
+  orig: 92, 134
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 365, 106
+  size: 168, 166
+  orig: 168, 166
+  offset: 0, 0
+  index: -1
